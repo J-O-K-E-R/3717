@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/CST-Term-3/3717/Workoutya/C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "/CST-Term-3/3717/Workoutya/C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/CST-Term-3/3717/Workoutya/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/CST-Term-3/3717/Workoutya/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]
