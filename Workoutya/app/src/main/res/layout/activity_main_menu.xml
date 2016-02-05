@@ -14,27 +14,30 @@
         android:layout_height="wrap_content"
         android:text="Exercises"
         android:id="@+id/exercise_button"
-        android:layout_marginTop="87dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/workout_button"
+        android:layout_alignLeft="@+id/workout_button"
+        android:layout_alignStart="@+id/workout_button" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Workout"
         android:id="@+id/workout_button"
-        android:layout_below="@+id/exercise_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Credits"
         android:id="@+id/credits_button"
-        android:layout_below="@+id/workout_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="67dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/workout_button"
+        android:layout_alignEnd="@+id/workout_button"
+        android:layout_marginBottom="119dp"
+        android:layout_alignLeft="@+id/workout_button"
+        android:layout_alignStart="@+id/workout_button" />
 
     <TextView
         android:layout_width="wrap_content"

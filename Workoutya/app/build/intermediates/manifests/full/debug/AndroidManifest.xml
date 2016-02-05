@@ -21,15 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.justin.workoutya.Exercise_Menu"
-            android:label="@string/title_activity_exercise__menu"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.justin.workoutya.Exercise_List" />
         <activity android:name="com.example.justin.workoutya.Credits" />
         <activity android:name="com.example.justin.workoutya.Exercise" />
         <activity android:name="com.example.justin.workoutya.Workout_List" />
         <activity android:name="com.example.justin.workoutya.Workout" />
+        <activity android:name="com.example.justin.workoutya.Exercise_Menu" />
     </application>
 
 </manifest>

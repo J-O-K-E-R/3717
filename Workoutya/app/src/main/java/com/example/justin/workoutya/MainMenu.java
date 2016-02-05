@@ -21,14 +21,14 @@ public class MainMenu extends AppCompatActivity {
         exerciseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainMenu.this, Exercise.class));
+                startActivity(new Intent(MainMenu.this, Exercise_Menu.class));
             }
         });
 
         workoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainMenu.this, Workout.class));
+                startActivity(new Intent(MainMenu.this, Workout_List.class));
             }
         });
 
