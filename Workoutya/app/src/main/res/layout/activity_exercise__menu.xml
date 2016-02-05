@@ -13,10 +13,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Exercise"
-        android:id="@+id/textView"
+        android:text="Logo"
+        android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="146dp" />
+        android:layout_marginTop="34dp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upper Body"
+        android:id="@+id/upper_btn"
+        android:layout_above="@+id/lower_btn"
+        android:layout_alignLeft="@+id/lower_btn"
+        android:layout_alignStart="@+id/lower_btn"
+        android:layout_marginBottom="55dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lower Body"
+        android:id="@+id/lower_btn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cardio"
+        android:id="@+id/cardio_btn"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/lower_btn"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
