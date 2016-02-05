@@ -124,12 +124,12 @@
         "source": "Y:\\Git\\3717\\Workoutya\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "Y:\\Git\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "Y:\\Git\\3717\\Workoutya\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "Y:\\Git\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "Y:\\Git\\3717\\Workoutya\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "Y:\\Git\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "Y:\\Git\\3717\\Workoutya\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
