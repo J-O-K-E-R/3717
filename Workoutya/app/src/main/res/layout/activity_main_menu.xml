@@ -9,4 +9,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.justin.workoutya.MainMenu">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercises"
+        android:id="@+id/exercise_button"
+        android:layout_marginTop="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout"
+        android:id="@+id/workout_button"
+        android:layout_below="@+id/exercise_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:id="@+id/credits_button"
+        android:layout_below="@+id/workout_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Logo"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
