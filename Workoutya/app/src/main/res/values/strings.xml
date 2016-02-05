@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Workoutya</string>
+    <string name="title_activity_exercise__menu">Exercise_Menu</string>
 </resources>

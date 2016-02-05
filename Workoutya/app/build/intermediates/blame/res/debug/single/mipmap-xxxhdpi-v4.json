@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/CST-Term-3/3717/Workoutya/C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
-        "source": "/CST-Term-3/3717/Workoutya/C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\CST-Term-3\\3717\\Workoutya\\C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\CST-Term-3\\3717\\Workoutya\\C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/CST-Term-3/3717/Workoutya/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
-        "source": "/CST-Term-3/3717/Workoutya/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\CST-Term-3\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\CST-Term-3\\3717\\Workoutya\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Justin\\Documents\\My Web Sites\\3717\\Workoutya\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.justin.workoutya.Exercise_Menu"
+            android:label="@string/title_activity_exercise__menu"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

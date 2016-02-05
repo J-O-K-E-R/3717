@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Exercise_Menu"
+            android:label="@string/title_activity_exercise__menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Exercise_List" />
+        <activity android:name=".Exercise" />
+        <activity android:name=".Workout_List" />
+        <activity android:name=".Workout"></activity>
     </application>
 
 </manifest>
