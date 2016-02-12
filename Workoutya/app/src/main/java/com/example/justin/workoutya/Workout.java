@@ -2,8 +2,11 @@
 package com.example.justin.workoutya;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class Workout extends ListActivity {
 
@@ -12,9 +15,21 @@ public class Workout extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout);
 
-        String[] values = new String[] { "exereise 1", "exereise 2", "exereise 3", "exereise 4", "exereise 5" };
+        String[] values = new String[] { "Push up", "Sit Up", "Pull Up",
+                "Squat", "Barbell", "Dead Lift", "Bench Press" };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, values);
         setListAdapter(adapter);
+    }
+    @Override
+    public void onListItemClick(final ListView list,
+                                final View view,
+                                final int      position,
+                                final long     id)
+    {
+        final String title;
+
+        Intent intent = new Intent(this, Exercise.class);
+        startActivity(intent);
     }
 }
