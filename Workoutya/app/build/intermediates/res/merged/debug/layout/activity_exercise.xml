@@ -24,7 +24,8 @@
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue elit id facilisis laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur iaculis molestie tellus sed lobortis. Pellentesque ornare ultrices posuere. Pellentesque dapibus tellus a tellus gravida eleifend. Praesent ligula metus, scelerisque vitae interdum ut, fermentum vitae augue. Vivamus in rhoncus erat, ac molestie ex. Nullam nec dictum orci."
         android:id="@+id/textView4"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,16 +36,17 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Image"
-        android:id="@+id/textView5"
-        android:layout_marginLeft="63dp"
-        android:layout_marginStart="63dp"
-        android:layout_below="@+id/button"
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView2"
+        android:src="@drawable/arnold"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
 
 </RelativeLayout>

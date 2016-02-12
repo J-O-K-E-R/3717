@@ -2194,13 +2194,13 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020043;
         public static final int abc_textfield_search_material=0x7f020044;
-        public static final int design_fab_background=0x7f020045;
-        public static final int design_snackbar_background=0x7f020046;
-        public static final int notification_template_icon_bg=0x7f020047;
+        public static final int arnold=0x7f020045;
+        public static final int design_fab_background=0x7f020046;
+        public static final int design_snackbar_background=0x7f020047;
+        public static final int logo=0x7f020048;
+        public static final int notification_template_icon_bg=0x7f020049;
     }
     public static final class id {
-        public static final int ExeciseBtn=0x7f0c006e;
-        public static final int ListButton=0x7f0c0076;
         public static final int action0=0x7f0c007e;
         public static final int action_bar=0x7f0c005a;
         public static final int action_bar_activity_content=0x7f0c0000;
@@ -2224,7 +2224,7 @@ containing a value of this type.
         public static final int button=0x7f0c006c;
         public static final int buttonPanel=0x7f0c0044;
         public static final int cancel_action=0x7f0c007f;
-        public static final int cardio_btn=0x7f0c0072;
+        public static final int cardio_btn=0x7f0c0070;
         public static final int center=0x7f0c001d;
         public static final int center_horizontal=0x7f0c001e;
         public static final int center_vertical=0x7f0c001f;
@@ -2234,7 +2234,8 @@ containing a value of this type.
         public static final int clip_vertical=0x7f0c002c;
         public static final int collapseActionView=0x7f0c0033;
         public static final int contentPanel=0x7f0c004a;
-        public static final int credits_button=0x7f0c0075;
+        public static final int core_btn=0x7f0c0071;
+        public static final int credits_button=0x7f0c0076;
         public static final int creditstextView=0x7f0c0069;
         public static final int custom=0x7f0c0050;
         public static final int customPanel=0x7f0c004f;
@@ -2263,6 +2264,9 @@ containing a value of this type.
         public static final int icon=0x7f0c0042;
         public static final int ifRoom=0x7f0c0034;
         public static final int image=0x7f0c003f;
+        public static final int imageView=0x7f0c0074;
+        public static final int imageView1=0x7f0c0072;
+        public static final int imageView2=0x7f0c006d;
         public static final int info=0x7f0c0089;
         public static final int item_touch_helper_previous_elevation=0x7f0c0005;
         public static final int left=0x7f0c0022;
@@ -2270,7 +2274,7 @@ containing a value of this type.
         public static final int line3=0x7f0c0087;
         public static final int listMode=0x7f0c000b;
         public static final int list_item=0x7f0c0041;
-        public static final int lower_btn=0x7f0c0071;
+        public static final int lower_btn=0x7f0c006f;
         public static final int media_actions=0x7f0c0081;
         public static final int middle=0x7f0c0031;
         public static final int mini=0x7f0c002f;
@@ -2322,21 +2326,19 @@ containing a value of this type.
         public static final int text=0x7f0c0088;
         public static final int text2=0x7f0c0086;
         public static final int textSpacerNoButtons=0x7f0c004d;
-        public static final int textView2=0x7f0c006f;
         public static final int textView3=0x7f0c006a;
         public static final int textView4=0x7f0c006b;
-        public static final int textView5=0x7f0c006d;
         public static final int time=0x7f0c0084;
         public static final int title=0x7f0c0043;
         public static final int title_template=0x7f0c0048;
         public static final int top=0x7f0c0025;
         public static final int topPanel=0x7f0c0047;
         public static final int up=0x7f0c0009;
-        public static final int upper_btn=0x7f0c0070;
+        public static final int upper_btn=0x7f0c006e;
         public static final int useLogo=0x7f0c0014;
         public static final int view_offset_helper=0x7f0c000a;
         public static final int withText=0x7f0c0036;
-        public static final int workout_button=0x7f0c0074;
+        public static final int workout_button=0x7f0c0075;
         public static final int wrap_content=0x7f0c0039;
     }
     public static final class integer {

@@ -1,11 +1,11 @@
 package com.example.justin.workoutya;
 
 import android.app.ListActivity;
-import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.view.View;
 import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class Workout_List extends ListActivity {
     @Override
@@ -20,14 +20,18 @@ public class Workout_List extends ListActivity {
                 android.R.layout.simple_list_item_1, values);
         setListAdapter(adapter);
 
-        Button ListBtn = (Button)findViewById(R.id.ListButton);
 
-        ListBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Workout_List.this, Workout.class));
-            }
-        });
+    }
+    @Override
+    public void onListItemClick(final ListView list,
+                                final View     view,
+                                final int      position,
+                                final long     id)
+    {
+        final String title;
+
+        Intent intent = new Intent(this, Workout.class);
+        startActivity(intent);
     }
 
 }

@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.justin.workoutya.Exercise_Menu">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Logo"
-        android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -27,7 +14,8 @@
         android:layout_above="@+id/lower_btn"
         android:layout_alignLeft="@+id/lower_btn"
         android:layout_alignStart="@+id/lower_btn"
-        android:layout_marginBottom="55dp" />
+        android:layout_marginBottom="25dp"
+        android:width="100dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,14 +23,38 @@
         android:text="Lower Body"
         android:id="@+id/lower_btn"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:width="100dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cardio"
         android:id="@+id/cardio_btn"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="25dp"
         android:layout_below="@+id/lower_btn"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:width="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Core"
+        android:id="@+id/core_btn"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/cardio_btn"
+        android:layout_alignLeft="@+id/cardio_btn"
+        android:width="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        android:layout_width="213dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
 </RelativeLayout>

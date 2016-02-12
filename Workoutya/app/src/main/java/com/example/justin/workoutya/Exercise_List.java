@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
+import android.widget.ListView;
 
 public class Exercise_List extends ListActivity {
 
@@ -20,14 +20,16 @@ public class Exercise_List extends ListActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, values);
         setListAdapter(adapter);
+    }
+    @Override
+    public void onListItemClick(final ListView list,
+                                final View view,
+                                final int      position,
+                                final long     id)
+    {
+        final String title;
 
-        Button Execise_Btn = (Button)findViewById(R.id.ExeciseBtn);
-
-        Execise_Btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Exercise_List.this, Exercise.class));
-            }
-        });
+        Intent intent = new Intent(this, Exercise.class);
+        startActivity(intent);
     }
 }
