@@ -12,7 +12,8 @@
         <activity
             android:name=".MainMenu"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar">
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,25 +21,31 @@
         </activity>
         <activity
             android:name=".Exercise_List"
-            android:theme="@android:style/Theme.NoTitleBar"/>
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Credits"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar"/>
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Exercise"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar"/>
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Workout_List"
-            android:theme="@android:style/Theme.NoTitleBar"/>
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Workout"
-            android:theme="@android:style/Theme.NoTitleBar"/>
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Exercise_Menu"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar">
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

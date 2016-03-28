@@ -1,49 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.justin.workoutya.MainMenu">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Exercises"
-        android:id="@+id/exercise_button"
-        android:width="100dp"
-        android:layout_marginTop="68dp"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="#70000000">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Workout"
-        android:id="@+id/workout_button"
-        android:width="100dp"
-        android:layout_below="@+id/exercise_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/logo"
+            android:src="@drawable/newlogo"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="72dp"
+            android:layout_marginStart="72dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Credits"
-        android:id="@+id/credits_button"
-        android:width="100dp"
-        android:layout_below="@+id/workout_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WorkyaOut"
+            android:id="@+id/textView"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/logo"
+            android:layout_toRightOf="@+id/logo"
+            android:layout_toEndOf="@+id/logo" />
+    </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/logo"
-        android:layout_width="213dp"
-        android:layout_height="130dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
 
-</RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exercise"
+            android:src="@drawable/exercise"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Exercises"
+            android:id="@+id/exercise_button"
+            android:layout_centerHorizontal="true"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:background="#70000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workout"
+            android:src="@drawable/workout"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Workout"
+            android:id="@+id/workout_button"
+            android:layout_centerHorizontal="true"
+            android:textSize="50dp"
+            android:background="#70000000"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/credits"
+            android:scaleType="centerCrop"
+            android:background="@drawable/credits" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Credits"
+            android:id="@+id/credits_button"
+            android:layout_centerHorizontal="true"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:background="#70000000" />
+
+    </RelativeLayout>
+
+</LinearLayout>
