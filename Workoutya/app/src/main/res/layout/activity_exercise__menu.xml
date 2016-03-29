@@ -1,60 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.justin.workoutya.Exercise_Menu">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Upper Body"
-        android:id="@+id/upper_btn"
-        android:layout_above="@+id/lower_btn"
-        android:layout_alignLeft="@+id/lower_btn"
-        android:layout_alignStart="@+id/lower_btn"
-        android:layout_marginBottom="25dp"
-        android:width="100dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lower Body"
-        android:id="@+id/lower_btn"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:width="100dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/upperbody"
+            android:src="@drawable/upperbody"
+            android:scaleType="centerCrop" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cardio"
-        android:id="@+id/cardio_btn"
-        android:layout_marginTop="25dp"
-        android:layout_below="@+id/lower_btn"
-        android:layout_centerHorizontal="true"
-        android:width="100dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Upper Body"
+            android:id="@+id/upper_btn"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:background="#70000000"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Core"
-        android:id="@+id/core_btn"
-        android:layout_marginTop="25dp"
-        android:layout_below="@+id/cardio_btn"
-        android:layout_alignLeft="@+id/cardio_btn"
-        android:width="100dp" />
+    </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/logo"
-        android:layout_width="213dp"
-        android:layout_height="130dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
 
-</RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lowerbody"
+            android:src="@drawable/lowerbody"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lower Body"
+            android:id="@+id/lower_btn"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:background="#70000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardio"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cardio" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cardio"
+            android:id="@+id/cardio_btn"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:background="#70000000"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/core"
+            android:src="@drawable/core"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Core"
+            android:id="@+id/core_btn"
+            android:textSize="50dp"
+            android:textColor="#ffffff"
+            android:background="#70000000" />
+
+    </RelativeLayout>
+
+</LinearLayout>
