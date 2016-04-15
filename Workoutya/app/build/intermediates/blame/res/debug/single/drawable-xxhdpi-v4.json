@@ -80,12 +80,12 @@
         "source": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arnold.jpg",
         "source": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\src\\main\\res\\drawable-xxhdpi\\arnold.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Daniel Zhang\\Documents\\My Web Sites\\3717\\Workoutya\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\upperbody.jpg",

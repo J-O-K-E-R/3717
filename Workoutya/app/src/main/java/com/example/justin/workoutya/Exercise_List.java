@@ -28,7 +28,6 @@ public class Exercise_List extends ListActivity {
                                 final int      position,
                                 final long     id)
     {
-        final String title;
         String val =(String) list.getItemAtPosition(position);// this object will be invoked by class Exercise
         Intent intent = new Intent(this, Exercise.class);
         intent.putExtra("listName", val);

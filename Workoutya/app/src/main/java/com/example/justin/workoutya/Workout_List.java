@@ -28,8 +28,6 @@ public class Workout_List extends ListActivity {
                                 final int      position,
                                 final long     id)
     {
-        final String title;
-
         Intent intent = new Intent(this, Workout.class);
         startActivity(intent);
     }
